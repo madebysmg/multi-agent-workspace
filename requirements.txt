@@ -1,0 +1,18 @@
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
+# research.py imports langchain_community.tools.tavily_search.TavilySearchResults,
+# which is deprecated upstream with removal planned for langchain-community 1.0.
+langchain-community>=0.3.0,<1.0
+langchain-google-genai>=0.1.0
+tavily-python>=0.3.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# Optional search providers (not installed by default):
+#   duckduckgo          -> pip install -U ddgs
+#   google_adk / hybrid -> pip install langchain-google-community  (+ GOOGLE_API_KEY, GOOGLE_CSE_ID)
+#   serpapi             -> pip install google-search-results
+# Other version ranges are lower bounds only; the code was written in 2025-10.

@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.next/
+.claude/skills/agile-jira/.jira-config.json
+.mcp.json
