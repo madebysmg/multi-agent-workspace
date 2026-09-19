@@ -57,7 +57,7 @@ multi-agent-workspace/
 ### 1. 설치
 
 ```bash
-git clone https://github.com/seokmogu/multi-agent-workspace.git
+git clone https://github.com/madebysmg/multi-agent-workspace.git
 cd multi-agent-workspace
 
 python -m venv .venv && source .venv/bin/activate
